@@ -975,7 +975,8 @@ body {
     border-radius: 50%;
     width: 30px;
     height: 30px;
- 
+     
+    
 }
    
 .close-icon{
@@ -983,18 +984,18 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
-    fill: currentColor
+    fill: currentColor;
+    transition: fill var(--time-duration) var(--my-cubic);
 }
 
 .close-button:hover .close-icon{
-
+    
     fill: var(--accent-color);
 }
 
 
 .modal-content{
     margin:40px;
-   
 }
 
 .modal-title{
